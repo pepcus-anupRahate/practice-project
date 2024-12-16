@@ -1,0 +1,14 @@
+C:\PracticeProject\PracticeProject\StrategyDesignPattern\bin\Debug\net8.0\StrategyDesignPattern.exe
+C:\PracticeProject\PracticeProject\StrategyDesignPattern\bin\Debug\net8.0\StrategyDesignPattern.deps.json
+C:\PracticeProject\PracticeProject\StrategyDesignPattern\bin\Debug\net8.0\StrategyDesignPattern.runtimeconfig.json
+C:\PracticeProject\PracticeProject\StrategyDesignPattern\bin\Debug\net8.0\StrategyDesignPattern.dll
+C:\PracticeProject\PracticeProject\StrategyDesignPattern\bin\Debug\net8.0\StrategyDesignPattern.pdb
+C:\PracticeProject\PracticeProject\StrategyDesignPattern\obj\Debug\net8.0\StrategyDesignPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\PracticeProject\PracticeProject\StrategyDesignPattern\obj\Debug\net8.0\StrategyDesignPattern.AssemblyInfoInputs.cache
+C:\PracticeProject\PracticeProject\StrategyDesignPattern\obj\Debug\net8.0\StrategyDesignPattern.AssemblyInfo.cs
+C:\PracticeProject\PracticeProject\StrategyDesignPattern\obj\Debug\net8.0\StrategyDesignPattern.csproj.CoreCompileInputs.cache
+C:\PracticeProject\PracticeProject\StrategyDesignPattern\obj\Debug\net8.0\StrategyDesignPattern.dll
+C:\PracticeProject\PracticeProject\StrategyDesignPattern\obj\Debug\net8.0\refint\StrategyDesignPattern.dll
+C:\PracticeProject\PracticeProject\StrategyDesignPattern\obj\Debug\net8.0\StrategyDesignPattern.pdb
+C:\PracticeProject\PracticeProject\StrategyDesignPattern\obj\Debug\net8.0\StrategyDesignPattern.genruntimeconfig.cache
+C:\PracticeProject\PracticeProject\StrategyDesignPattern\obj\Debug\net8.0\ref\StrategyDesignPattern.dll

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StudentManagement.API</name>
+    </assembly>
+    <members>
+        <member name="M:StudentManagement.API.Controllers.AuthController.Login(StudentManagement.Models.LoginDto)">
+            <summary>
+            Authenticates a user and returns a JWT token.
+            </summary>
+            <param name="login">The login details including username and password.</param>
+            <returns>A JWT token if authentication is successful; otherwise, Unauthorized.</returns>
+        </member>
+        <member name="M:StudentManagement.Controllers.CourseController.AssignStudentToCourses(StudentManagement.Models.AssignCourseDto)">
+            <summary>
+            Assigns a list of courses to a student.
+            </summary>
+            <param name="model">The assignment details, including the student ID and list of course IDs.</param>
+            <returns>A message indicating success or failure.</returns>
+        </member>
+        <member name="M:StudentManagement.Controllers.StudentController.AddStudent(StudentManagement.Entities.Student)">
+            <summary>
+            Adds a new student to the system.
+            </summary>
+            <param name="student">The student object to add.</param>
+            <returns>A message indicating success or failure.</returns>
+        </member>
+        <member name="M:StudentManagement.Controllers.StudentController.GetStudents">
+            <summary>
+            Retrieves a list of all students, including their enrolled courses.
+            </summary>
+            <returns>A list of students with enrolled courses.</returns>
+        </member>
+    </members>
+</doc>

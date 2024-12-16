@@ -1,0 +1,14 @@
+C:\PracticeProject\PracticeProject\ObserverDesignPattern\bin\Debug\net8.0\ObserverDesignPattern.exe
+C:\PracticeProject\PracticeProject\ObserverDesignPattern\bin\Debug\net8.0\ObserverDesignPattern.deps.json
+C:\PracticeProject\PracticeProject\ObserverDesignPattern\bin\Debug\net8.0\ObserverDesignPattern.runtimeconfig.json
+C:\PracticeProject\PracticeProject\ObserverDesignPattern\bin\Debug\net8.0\ObserverDesignPattern.dll
+C:\PracticeProject\PracticeProject\ObserverDesignPattern\bin\Debug\net8.0\ObserverDesignPattern.pdb
+C:\PracticeProject\PracticeProject\ObserverDesignPattern\obj\Debug\net8.0\ObserverDesignPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\PracticeProject\PracticeProject\ObserverDesignPattern\obj\Debug\net8.0\ObserverDesignPattern.AssemblyInfoInputs.cache
+C:\PracticeProject\PracticeProject\ObserverDesignPattern\obj\Debug\net8.0\ObserverDesignPattern.AssemblyInfo.cs
+C:\PracticeProject\PracticeProject\ObserverDesignPattern\obj\Debug\net8.0\ObserverDesignPattern.csproj.CoreCompileInputs.cache
+C:\PracticeProject\PracticeProject\ObserverDesignPattern\obj\Debug\net8.0\ObserverDesignPattern.dll
+C:\PracticeProject\PracticeProject\ObserverDesignPattern\obj\Debug\net8.0\refint\ObserverDesignPattern.dll
+C:\PracticeProject\PracticeProject\ObserverDesignPattern\obj\Debug\net8.0\ObserverDesignPattern.pdb
+C:\PracticeProject\PracticeProject\ObserverDesignPattern\obj\Debug\net8.0\ObserverDesignPattern.genruntimeconfig.cache
+C:\PracticeProject\PracticeProject\ObserverDesignPattern\obj\Debug\net8.0\ref\ObserverDesignPattern.dll

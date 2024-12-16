@@ -1,0 +1,14 @@
+C:\PracticeProject\PracticeProject\ProtoTypePattern\bin\Debug\net8.0\ProtoTypePattern.exe
+C:\PracticeProject\PracticeProject\ProtoTypePattern\bin\Debug\net8.0\ProtoTypePattern.deps.json
+C:\PracticeProject\PracticeProject\ProtoTypePattern\bin\Debug\net8.0\ProtoTypePattern.runtimeconfig.json
+C:\PracticeProject\PracticeProject\ProtoTypePattern\bin\Debug\net8.0\ProtoTypePattern.dll
+C:\PracticeProject\PracticeProject\ProtoTypePattern\bin\Debug\net8.0\ProtoTypePattern.pdb
+C:\PracticeProject\PracticeProject\ProtoTypePattern\obj\Debug\net8.0\ProtoTypePattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\PracticeProject\PracticeProject\ProtoTypePattern\obj\Debug\net8.0\ProtoTypePattern.AssemblyInfoInputs.cache
+C:\PracticeProject\PracticeProject\ProtoTypePattern\obj\Debug\net8.0\ProtoTypePattern.AssemblyInfo.cs
+C:\PracticeProject\PracticeProject\ProtoTypePattern\obj\Debug\net8.0\ProtoTypePattern.csproj.CoreCompileInputs.cache
+C:\PracticeProject\PracticeProject\ProtoTypePattern\obj\Debug\net8.0\ProtoTypePattern.dll
+C:\PracticeProject\PracticeProject\ProtoTypePattern\obj\Debug\net8.0\refint\ProtoTypePattern.dll
+C:\PracticeProject\PracticeProject\ProtoTypePattern\obj\Debug\net8.0\ProtoTypePattern.pdb
+C:\PracticeProject\PracticeProject\ProtoTypePattern\obj\Debug\net8.0\ProtoTypePattern.genruntimeconfig.cache
+C:\PracticeProject\PracticeProject\ProtoTypePattern\obj\Debug\net8.0\ref\ProtoTypePattern.dll
