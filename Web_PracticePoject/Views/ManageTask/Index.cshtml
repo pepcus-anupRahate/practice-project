@@ -1,0 +1,124 @@
+﻿@model IEnumerable<Web_PracticePoject.Models.Task>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+    <h1>Task Manager</h1>
+
+    <!-- Form to Add a New Task -->
+    <div>
+        <h3>Add a New Task</h3>
+        <input type="text" id="taskName" placeholder="Task Name">
+        <button id="addTaskButton">Add Task</button>
+    </div>
+
+    <!-- Task List -->
+    <div>
+        <h3>Tasks</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Task Name</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="taskTableBody">
+                <!-- Tasks will be populated here via AJAX -->
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            // Load tasks on page load
+            loadTasks();
+
+            // Add a new task
+            $("#addTaskButton").click(function () {
+                const taskName = $("#taskName").val();
+                if (taskName) {
+                    $.ajax({
+                        url: "/ManageTask/CreateTask",
+                        type: "POST",
+                        data: { name: taskName },
+                        success: function (response) {
+                            if (response.success) {
+                                $("#taskName").val(""); // Clear input
+                                loadTasks(); // Reload tasks
+                            } else {
+                                alert("Failed to create task");
+                            }
+                        }
+                    });
+                }
+            });
+
+            // Mark task as complete
+            $(document).on("click", ".completeTaskButton", function () {
+                const taskId = $(this).data("id");
+                $.ajax({
+                    url: "/ManageTask/CompleteTask",
+                    type: "POST",
+                    data: { id: taskId },
+                    success: function (response) {
+                        if (response.success) {
+                            loadTasks(); // Reload tasks
+                        } else {
+                            alert("Failed to complete task");
+                        }
+                    }
+                });
+            });
+
+            // Delete a task
+            $(document).on("click", ".deleteTaskButton", function () {
+                const taskId = $(this).data("id");
+                $.ajax({
+                    url: "/ManageTask/DeleteTask",
+                    type: "POST",
+                    data: { id: taskId },
+                    success: function (response) {
+                        if (response.success) {
+                            loadTasks(); // Reload tasks
+                        } else {
+                            alert("Failed to delete task");
+                        }
+                    }
+                });
+            });
+
+            // Function to load tasks
+            function loadTasks() {
+                $.ajax({
+                    url: "/ManageTask/GetTasks",
+                    type: "GET",
+                    success: function (data) {
+                        const taskTableBody = $("#taskTableBody");
+                        taskTableBody.empty();
+                        data.forEach(task => {
+                            taskTableBody.append(`
+                                <tr>
+                                    <td>${task.name}</td>
+                                    <td>${task.isCompleted ? "Completed" : "Pending"}</td>
+                                    <td>
+                                        ${!task.isCompleted ? `<button class="completeTaskButton" data-id="${task.id}">Complete</button>` : ""}
+                                        <button class="deleteTaskButton" data-id="${task.id}">Delete</button>
+                                    </td>
+                                </tr>
+                            `);
+                        });
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>
+

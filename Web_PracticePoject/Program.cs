@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using Web_PracticePoject.Models;
 using Web_PracticePoject.Services;
 
@@ -7,6 +8,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddSingleton<IDemoService, DemoService>();
+
+builder.Services.AddDbContext<TaskDbContext>(options => 
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 
@@ -23,6 +27,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Task}/{action=Index}/{id?}");
 
 app.Run();

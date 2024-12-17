@@ -1,8 +1,36 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+
+<div>
+    <button id="button">Show List Of Students</button>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $("button").click(function () {
+                $.ajax({
+      url: 'http://localhost:5009/api/Student/list',
+      type: 'GET',
+      headers: {
+        'Accept': '*/*'
+      },
+      success: function(response) {
+        // Handle the successful response
+        console.log(response);
+        // Process the response data as needed
+      },
+      error: function(xhr, status, error) {
+        // Handle errors
+        console.error(xhr.responseText);
+      }
+    });
+        });
+    });
+</script>
