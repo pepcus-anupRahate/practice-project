@@ -1,9 +1,10 @@
-﻿using StudentManagement.Entities;
+﻿using StudentManagement.API.Models;
+using StudentManagement.Entities;
 using StudentManagement.Models;
 using StudentManagement.Respositories.Interface;
 using StudentManagement.Services.Interface;
 
-namespace StudentManagement.Services.Implementation
+namespace StudentManagement.API.Services.Implementation
 {
     public class StudentService : IStudentService
     {
@@ -55,11 +56,11 @@ namespace StudentManagement.Services.Implementation
             }
         }
 
-        public async Task<BaseResult<string>> AddStudent(Student student)
+        public async Task<BaseResult<string>> AddStudent(AddStudentDto studentDto)
         {
             try
             {
-                if (student is null)
+                if (studentDto is null)
                 {
                     return new BaseResult<string>
                     {
@@ -68,6 +69,8 @@ namespace StudentManagement.Services.Implementation
                         StatusCode = StatusCodes.Status400BadRequest
                     };
                 }
+
+                var student = new Student { Name = studentDto.Name, Email = studentDto.Email, Phone = studentDto.Phone };
 
                 await _studentRepository.AddStudent(student);
                 return new BaseResult<string>

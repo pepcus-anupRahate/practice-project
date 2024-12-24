@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using StudentManagement.API.Services.Implementation;
 using StudentManagement.Data;
 using StudentManagement.Entities;
 using StudentManagement.Respositories.Implementation;

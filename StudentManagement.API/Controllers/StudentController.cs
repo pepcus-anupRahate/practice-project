@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using StudentManagement.API.Models;
 using StudentManagement.Entities;
 using StudentManagement.Models;
 using StudentManagement.Respositories.Interface;
@@ -26,7 +27,7 @@ namespace StudentManagement.Controllers
         /// <returns>A message indicating success or failure.</returns>
         //POST: https://localhost:7265/api/Student/add
         [HttpPost("add")]
-        public async Task<IActionResult> AddStudent([FromBody] Student student)
+        public async Task<IActionResult> AddStudent([FromBody] AddStudentDto student)
         {
             var serviceResult = await _studentService.AddStudent(student);
             return HandleResponse(serviceResult);

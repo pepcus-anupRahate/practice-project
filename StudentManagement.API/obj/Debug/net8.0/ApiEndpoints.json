@@ -41,7 +41,7 @@
     "Parameters": [
       {
         "Name": "student",
-        "Type": "StudentManagement.Entities.Student",
+        "Type": "StudentManagement.API.Models.AddStudentDto",
         "IsRequired": true
       }
     ],

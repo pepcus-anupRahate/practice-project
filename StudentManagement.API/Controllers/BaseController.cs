@@ -22,15 +22,12 @@ namespace StudentManagement.Controllers
                 {
                     if (result.Result is not null)
                     {
-                        switch (result.StatusCode)
+                        return result.StatusCode switch
                         {
-                            case StatusCodes.Status200OK:
-                                return Ok(result.Result);
-                            case StatusCodes.Status201Created:
-                                return Created("", result.Result);
-                            default:
-                                return NoContent();
-                        }
+                            StatusCodes.Status200OK => Ok(result.Result),
+                            StatusCodes.Status201Created => Created("", result.Result),
+                            _ => NoContent(),
+                        };
                     }
                     else
                     {
@@ -39,26 +36,15 @@ namespace StudentManagement.Controllers
                 }
                 else
                 {
-                    switch (result.StatusCode)
+                    return result.StatusCode switch
                     {
-                        case StatusCodes.Status400BadRequest:
-                            return BadRequest(result.Message);
-
-                        case StatusCodes.Status401Unauthorized:
-                            return Unauthorized(result.Message);
-
-                        case StatusCodes.Status403Forbidden:
-                            return Forbid(result.Message);
-
-                        case StatusCodes.Status404NotFound:
-                            return NotFound(result.Message);
-
-                        case StatusCodes.Status500InternalServerError:
-                            return HandleException(result.Exception);
-
-                        default:
-                            return BadRequest(result.Message);
-                    }
+                        StatusCodes.Status400BadRequest => BadRequest(result.Message),
+                        StatusCodes.Status401Unauthorized => Unauthorized(result.Message),
+                        StatusCodes.Status403Forbidden => Forbid(result.Message),
+                        StatusCodes.Status404NotFound => NotFound(result.Message),
+                        StatusCodes.Status500InternalServerError => HandleException(result.Exception),
+                        _ => BadRequest(result.Message),
+                    };
                 }
             }
             else

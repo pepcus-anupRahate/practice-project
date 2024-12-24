@@ -56,3 +56,4 @@ C:\PracticeProject\PracticeProject\StudentManagement.API\obj\Debug\net8.0\Studen
 C:\PracticeProject\PracticeProject\StudentManagement.API\obj\Debug\net8.0\ref\StudentManagement.API.dll
 C:\PracticeProject\PracticeProject\StudentManagement.API\bin\Debug\net8.0\StudentManagement.API.xml
 C:\PracticeProject\PracticeProject\StudentManagement.API\obj\Debug\net8.0\StudentManagement.API.xml
+C:\PracticeProject\PracticeProject\StudentManagement.API\obj\Debug\net8.0\StudentManagement.API.sourcelink.json

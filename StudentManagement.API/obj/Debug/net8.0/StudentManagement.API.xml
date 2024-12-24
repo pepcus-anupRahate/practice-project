@@ -18,7 +18,7 @@
             <param name="model">The assignment details, including the student ID and list of course IDs.</param>
             <returns>A message indicating success or failure.</returns>
         </member>
-        <member name="M:StudentManagement.Controllers.StudentController.AddStudent(StudentManagement.Entities.Student)">
+        <member name="M:StudentManagement.Controllers.StudentController.AddStudent(StudentManagement.API.Models.AddStudentDto)">
             <summary>
             Adds a new student to the system.
             </summary>

@@ -10,12 +10,8 @@ namespace StudentManagement.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AuthController : BaseController
+    public class AuthController(ILogger<AuthController> logger) : BaseController(logger)
     {
-        public AuthController(ILogger<AuthController> logger) : base(logger)
-        {
-
-        }
         /// <summary>
         /// Authenticates a user and returns a JWT token.
         /// </summary>

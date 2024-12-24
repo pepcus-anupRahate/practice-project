@@ -82,17 +82,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Student"
+                "$ref": "#/components/schemas/AddStudentDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Student"
+                "$ref": "#/components/schemas/AddStudentDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Student"
+                "$ref": "#/components/schemas/AddStudentDto"
               }
             }
           }
@@ -120,6 +120,24 @@
   },
   "components": {
     "schemas": {
+      "AddStudentDto": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "phone": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "AssignCourseDto": {
         "type": "object",
         "properties": {
@@ -132,30 +150,6 @@
             "items": {
               "type": "integer",
               "format": "int32"
-            },
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "Course": {
-        "required": [
-          "courseName"
-        ],
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "courseName": {
-            "type": "string",
-            "nullable": true
-          },
-          "studentCourses": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/StudentCourse"
             },
             "nullable": true
           }
@@ -176,60 +170,6 @@
           "password": {
             "type": "string",
             "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "Student": {
-        "required": [
-          "email",
-          "name",
-          "phone"
-        ],
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "name": {
-            "type": "string",
-            "nullable": true
-          },
-          "email": {
-            "type": "string",
-            "nullable": true
-          },
-          "phone": {
-            "type": "string",
-            "nullable": true
-          },
-          "studentCourses": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/StudentCourse"
-            },
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "StudentCourse": {
-        "type": "object",
-        "properties": {
-          "studentId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "student": {
-            "$ref": "#/components/schemas/Student"
-          },
-          "courseId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "course": {
-            "$ref": "#/components/schemas/Course"
           }
         },
         "additionalProperties": false
