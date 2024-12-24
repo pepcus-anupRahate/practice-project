@@ -12,3 +12,4 @@ C:\PracticeProject\PracticeProject\ProtoTypePattern\obj\Debug\net8.0\refint\Prot
 C:\PracticeProject\PracticeProject\ProtoTypePattern\obj\Debug\net8.0\PrototypeDesignPattern.pdb
 C:\PracticeProject\PracticeProject\ProtoTypePattern\obj\Debug\net8.0\PrototypeDesignPattern.genruntimeconfig.cache
 C:\PracticeProject\PracticeProject\ProtoTypePattern\obj\Debug\net8.0\ref\PrototypeDesignPattern.dll
+C:\PracticeProject\PracticeProject\ProtoTypePattern\obj\Debug\net8.0\PrototypeDesignPattern.sourcelink.json

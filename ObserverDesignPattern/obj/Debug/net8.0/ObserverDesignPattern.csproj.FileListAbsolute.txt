@@ -12,3 +12,4 @@ C:\PracticeProject\PracticeProject\ObserverDesignPattern\obj\Debug\net8.0\refint
 C:\PracticeProject\PracticeProject\ObserverDesignPattern\obj\Debug\net8.0\ObserverDesignPattern.pdb
 C:\PracticeProject\PracticeProject\ObserverDesignPattern\obj\Debug\net8.0\ObserverDesignPattern.genruntimeconfig.cache
 C:\PracticeProject\PracticeProject\ObserverDesignPattern\obj\Debug\net8.0\ref\ObserverDesignPattern.dll
+C:\PracticeProject\PracticeProject\ObserverDesignPattern\obj\Debug\net8.0\ObserverDesignPattern.sourcelink.json

@@ -12,3 +12,4 @@ C:\PracticeProject\PracticeProject\StrategyDesignPattern\obj\Debug\net8.0\refint
 C:\PracticeProject\PracticeProject\StrategyDesignPattern\obj\Debug\net8.0\StrategyDesignPattern.pdb
 C:\PracticeProject\PracticeProject\StrategyDesignPattern\obj\Debug\net8.0\StrategyDesignPattern.genruntimeconfig.cache
 C:\PracticeProject\PracticeProject\StrategyDesignPattern\obj\Debug\net8.0\ref\StrategyDesignPattern.dll
+C:\PracticeProject\PracticeProject\StrategyDesignPattern\obj\Debug\net8.0\StrategyDesignPattern.sourcelink.json
