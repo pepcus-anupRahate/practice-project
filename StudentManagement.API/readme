@@ -1,0 +1,28 @@
+Teqnologies used:
+ASP.NET Core web API version 8
+EntityFrameworkCore 9
+"Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.11"
+"Microsoft.EntityFrameworkCore.InMemory" Version="9.0.0"
+ 
+DataBase: In_Memory database is used and seed data for testing. In Program.cs
+ 
+Currently I'm using hardcoded user using admin credentials:
+ 
+{
+  "username": "admin",
+  "password": "password"
+}
+ 
+we can generate the token and pass as folows:
+ 
+Bearer {Token}
+ 
+List :
+For testing purpose I have seed some data in programe.cs file.
+ 
+Error Handling:
+Error and responce handling done in Base Controller
+ 
+Dependency Injection: Register in Repositories and Services folder for better readability.
+ 
+Added swagger documentation to help user.
