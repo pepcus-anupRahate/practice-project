@@ -1,9 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using StudentManagement.API.Models;
-using StudentManagement.Entities;
-using StudentManagement.Models;
-using StudentManagement.Respositories.Interface;
 using StudentManagement.Services.Interface;
 
 namespace StudentManagement.Controllers
