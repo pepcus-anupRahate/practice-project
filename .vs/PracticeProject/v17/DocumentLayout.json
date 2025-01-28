@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\PracticeProject\\PracticeProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B2ADD6F2-9E63-4E2A-89A5-B5EB15270F4D}|Practice_LinQ\\Practice_LinQ.csproj|c:\\practiceproject\\practiceproject\\practice_linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2ADD6F2-9E63-4E2A-89A5-B5EB15270F4D}|Practice_LinQ\\Practice_LinQ.csproj|solutionrelative:practice_linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D6A8CF4D-F8F1-4D93-8577-C7339322DD55}|Web_PracticePoject\\Web_PracticePoject.csproj|c:\\practiceproject\\practiceproject\\web_practicepoject\\models\\taskdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6A8CF4D-F8F1-4D93-8577-C7339322DD55}|Web_PracticePoject\\Web_PracticePoject.csproj|solutionrelative:web_practicepoject\\models\\taskdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -166,15 +170,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\Practice_LinQ\\Program.cs",
+              "RelativeDocumentMoniker": "Practice_LinQ\\Program.cs",
+              "ToolTip": "C:\\PracticeProject\\PracticeProject\\Practice_LinQ\\Program.cs",
+              "RelativeToolTip": "Practice_LinQ\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T05:10:17.423Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TaskDbContext.cs",
               "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\Web_PracticePoject\\Models\\TaskDbContext.cs",
               "RelativeDocumentMoniker": "Web_PracticePoject\\Models\\TaskDbContext.cs",
@@ -187,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\Web_PracticePoject\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Web_PracticePoject\\Models\\ErrorViewModel.cs",
@@ -195,12 +212,11 @@
               "RelativeToolTip": "Web_PracticePoject\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T05:58:02.859Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T05:58:02.859Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "DemoNestedLevelTwo.cs",
               "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\Web_PracticePoject\\Models\\DemoNestedLevelTwo.cs",
               "RelativeDocumentMoniker": "Web_PracticePoject\\Models\\DemoNestedLevelTwo.cs",
@@ -208,12 +224,11 @@
               "RelativeToolTip": "Web_PracticePoject\\Models\\DemoNestedLevelTwo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T05:57:58.048Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T05:57:58.048Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "DemoNestedLevelOne.cs",
               "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\Web_PracticePoject\\Models\\DemoNestedLevelOne.cs",
               "RelativeDocumentMoniker": "Web_PracticePoject\\Models\\DemoNestedLevelOne.cs",
@@ -221,12 +236,11 @@
               "RelativeToolTip": "Web_PracticePoject\\Models\\DemoNestedLevelOne.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T05:57:55.815Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T05:57:55.815Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\StudentManagement.API\\Models\\LoginDto.cs",
               "RelativeDocumentMoniker": "StudentManagement.API\\Models\\LoginDto.cs",
@@ -234,12 +248,11 @@
               "RelativeToolTip": "StudentManagement.API\\Models\\LoginDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T11:38:02.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T11:38:02.579Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Course.cs",
               "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\StudentManagement.API\\Entities\\Course.cs",
               "RelativeDocumentMoniker": "StudentManagement.API\\Entities\\Course.cs",
@@ -247,12 +260,11 @@
               "RelativeToolTip": "StudentManagement.API\\Entities\\Course.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T06:07:01.321Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T06:07:01.321Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\StudentManagement.API\\Entities\\Student.cs",
               "RelativeDocumentMoniker": "StudentManagement.API\\Entities\\Student.cs",
@@ -260,12 +272,11 @@
               "RelativeToolTip": "StudentManagement.API\\Entities\\Student.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T06:07:02.318Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T06:07:02.318Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "BaseController.cs",
               "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\StudentManagement.API\\Controllers\\BaseController.cs",
               "RelativeDocumentMoniker": "StudentManagement.API\\Controllers\\BaseController.cs",
@@ -273,12 +284,11 @@
               "RelativeToolTip": "StudentManagement.API\\Controllers\\BaseController.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAwwDgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T12:04:03.107Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T12:04:03.107Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "StudentService.cs",
               "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\StudentManagement.API\\Services\\Implementation\\StudentService.cs",
               "RelativeDocumentMoniker": "StudentManagement.API\\Services\\Implementation\\StudentService.cs",
@@ -286,12 +296,11 @@
               "RelativeToolTip": "StudentManagement.API\\Services\\Implementation\\StudentService.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAQwDgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T11:53:12.289Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T11:53:12.289Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "StudentRepository.cs",
               "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\StudentManagement.API\\Respositories\\Implementation\\StudentRepository.cs",
               "RelativeDocumentMoniker": "StudentManagement.API\\Respositories\\Implementation\\StudentRepository.cs",
@@ -299,12 +308,11 @@
               "RelativeToolTip": "StudentManagement.API\\Respositories\\Implementation\\StudentRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T12:08:00.826Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T12:08:00.826Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Task.cs",
               "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\Web_PracticePoject\\Models\\Task.cs",
               "RelativeDocumentMoniker": "Web_PracticePoject\\Models\\Task.cs",
@@ -312,12 +320,11 @@
               "RelativeToolTip": "Web_PracticePoject\\Models\\Task.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T09:58:33.973Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T09:58:33.973Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "StudentController.cs",
               "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\StudentManagement.API\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "StudentManagement.API\\Controllers\\StudentController.cs",
@@ -325,12 +332,11 @@
               "RelativeToolTip": "StudentManagement.API\\Controllers\\StudentController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T11:42:13.127Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T11:42:13.127Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\StudentManagement.API\\Program.cs",
               "RelativeDocumentMoniker": "StudentManagement.API\\Program.cs",
@@ -338,12 +344,11 @@
               "RelativeToolTip": "StudentManagement.API\\Program.cs",
               "ViewState": "AgIAAEIAAAAAAAAAAAAAAE4AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T06:06:23.684Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T06:06:23.684Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ManageTaskController.cs",
               "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\Web_PracticePoject\\Controllers\\ManageTaskController.cs",
               "RelativeDocumentMoniker": "Web_PracticePoject\\Controllers\\ManageTaskController.cs",
@@ -351,12 +356,11 @@
               "RelativeToolTip": "Web_PracticePoject\\Controllers\\ManageTaskController.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwDsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T13:49:22.455Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T13:49:22.455Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "TaskController.cs",
               "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\Web_PracticePoject\\Controllers\\TaskController.cs",
               "RelativeDocumentMoniker": "Web_PracticePoject\\Controllers\\TaskController.cs",
@@ -364,12 +368,11 @@
               "RelativeToolTip": "Web_PracticePoject\\Controllers\\TaskController.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAowBoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T12:20:23.809Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T12:20:23.809Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "CourseController.cs",
               "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\StudentManagement.API\\Controllers\\CourseController.cs",
               "RelativeDocumentMoniker": "StudentManagement.API\\Controllers\\CourseController.cs",
@@ -377,12 +380,11 @@
               "RelativeToolTip": "StudentManagement.API\\Controllers\\CourseController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T11:47:38.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T11:47:38.023Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "BaseResult.cs",
               "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\StudentManagement.API\\Models\\BaseResult.cs",
               "RelativeDocumentMoniker": "StudentManagement.API\\Models\\BaseResult.cs",
@@ -390,12 +392,11 @@
               "RelativeToolTip": "StudentManagement.API\\Models\\BaseResult.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T14:11:18.783Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T14:11:18.783Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "CourseService.cs",
               "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\StudentManagement.API\\Services\\Implementation\\CourseService.cs",
               "RelativeDocumentMoniker": "StudentManagement.API\\Services\\Implementation\\CourseService.cs",
@@ -403,12 +404,11 @@
               "RelativeToolTip": "StudentManagement.API\\Services\\Implementation\\CourseService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T14:20:22.586Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T14:20:22.586Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "AddStudentDto.cs",
               "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\StudentManagement.API\\Models\\AddStudentDto.cs",
               "RelativeDocumentMoniker": "StudentManagement.API\\Models\\AddStudentDto.cs",
@@ -416,12 +416,11 @@
               "RelativeToolTip": "StudentManagement.API\\Models\\AddStudentDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T11:53:53.114Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T11:53:53.114Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "AssignCourseDto.cs",
               "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\StudentManagement.API\\Models\\AssignCourseDto.cs",
               "RelativeDocumentMoniker": "StudentManagement.API\\Models\\AssignCourseDto.cs",
@@ -429,25 +428,23 @@
               "RelativeToolTip": "StudentManagement.API\\Models\\AssignCourseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T14:11:17.48Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T14:11:17.48Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "StudentManagement.API",
+              "DocumentIndex": 16,
+              "Title": "StudentManagement.API.csproj",
               "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\StudentManagement.API\\StudentManagement.API.csproj",
               "RelativeDocumentMoniker": "StudentManagement.API\\StudentManagement.API.csproj",
               "ToolTip": "C:\\PracticeProject\\PracticeProject\\StudentManagement.API\\StudentManagement.API.csproj",
               "RelativeToolTip": "StudentManagement.API\\StudentManagement.API.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-24T14:14:45.528Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T14:14:45.528Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "StudentCourse.cs",
               "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\StudentManagement.API\\Entities\\StudentCourse.cs",
               "RelativeDocumentMoniker": "StudentManagement.API\\Entities\\StudentCourse.cs",
@@ -455,12 +452,11 @@
               "RelativeToolTip": "StudentManagement.API\\Entities\\StudentCourse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T06:07:04.237Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T06:07:04.237Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\ObserverDesignPattern\\Program.cs",
               "RelativeDocumentMoniker": "ObserverDesignPattern\\Program.cs",
@@ -468,12 +464,11 @@
               "RelativeToolTip": "ObserverDesignPattern\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T12:12:24.763Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T12:12:24.763Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\StrategyDesignPattern\\Program.cs",
               "RelativeDocumentMoniker": "StrategyDesignPattern\\Program.cs",
@@ -481,12 +476,11 @@
               "RelativeToolTip": "StrategyDesignPattern\\Program.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAgwCwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T12:25:39.901Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T12:25:39.901Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "StudentDto.cs",
               "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\StudentManagement.API\\Models\\StudentDto.cs",
               "RelativeDocumentMoniker": "StudentManagement.API\\Models\\StudentDto.cs",
@@ -494,12 +488,11 @@
               "RelativeToolTip": "StudentManagement.API\\Models\\StudentDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T11:52:39.772Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T11:52:39.772Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\ProtoTypePattern\\Program.cs",
               "RelativeDocumentMoniker": "ProtoTypePattern\\Program.cs",
@@ -507,12 +500,11 @@
               "RelativeToolTip": "ProtoTypePattern\\Program.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T11:35:51.564Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T11:35:51.564Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "CourseRepository.cs",
               "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\StudentManagement.API\\Respositories\\Implementation\\CourseRepository.cs",
               "RelativeDocumentMoniker": "StudentManagement.API\\Respositories\\Implementation\\CourseRepository.cs",
@@ -520,12 +512,11 @@
               "RelativeToolTip": "StudentManagement.API\\Respositories\\Implementation\\CourseRepository.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwC8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T11:35:30.064Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T11:35:30.064Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\StudentManagement.API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "StudentManagement.API\\Controllers\\AuthController.cs",
@@ -533,12 +524,11 @@
               "RelativeToolTip": "StudentManagement.API\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAqwCQAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T08:05:00.062Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T08:05:00.062Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "IStudentService.cs",
               "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\StudentManagement.API\\Services\\Interface\\IStudentService.cs",
               "RelativeDocumentMoniker": "StudentManagement.API\\Services\\Interface\\IStudentService.cs",
@@ -546,12 +536,11 @@
               "RelativeToolTip": "StudentManagement.API\\Services\\Interface\\IStudentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T11:54:43.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T11:54:43.426Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "SchoolDbContext.cs",
               "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\StudentManagement.API\\Data\\SchoolDbContext.cs",
               "RelativeDocumentMoniker": "StudentManagement.API\\Data\\SchoolDbContext.cs",
@@ -559,12 +548,11 @@
               "RelativeToolTip": "StudentManagement.API\\Data\\SchoolDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T06:06:18.908Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T06:06:18.908Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\Web_PracticePoject\\Views\\ManageTask\\Index.cshtml",
               "RelativeDocumentMoniker": "Web_PracticePoject\\Views\\ManageTask\\Index.cshtml",
@@ -576,7 +564,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "Manage_Task.cshtml",
               "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\Web_PracticePoject\\Views\\Task\\Manage_Task.cshtml",
               "RelativeDocumentMoniker": "Web_PracticePoject\\Views\\Task\\Manage_Task.cshtml",
@@ -588,7 +576,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\Web_PracticePoject\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Web_PracticePoject\\Views\\Home\\Privacy.cshtml",
@@ -600,7 +588,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "StyleSheet.css",
               "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\Web_PracticePoject\\Scipts\\StyleSheet.css",
               "RelativeDocumentMoniker": "Web_PracticePoject\\Scipts\\StyleSheet.css",
@@ -612,7 +600,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\Web_PracticePoject\\Views\\Task\\Index.cshtml",
               "RelativeDocumentMoniker": "Web_PracticePoject\\Views\\Task\\Index.cshtml",
@@ -624,7 +612,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\Web_PracticePoject\\appsettings.json",
               "RelativeDocumentMoniker": "Web_PracticePoject\\appsettings.json",
@@ -636,7 +624,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\Web_PracticePoject\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Web_PracticePoject\\Properties\\launchSettings.json",
@@ -648,7 +636,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\Web_PracticePoject\\Program.cs",
               "RelativeDocumentMoniker": "Web_PracticePoject\\Program.cs",
@@ -660,7 +648,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\PracticeProject\\PracticeProject\\Web_PracticePoject\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Web_PracticePoject\\Controllers\\HomeController.cs",
@@ -668,8 +656,7 @@
               "RelativeToolTip": "Web_PracticePoject\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T13:01:50.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T13:01:50.813Z"
             }
           ]
         }
