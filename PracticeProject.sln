@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyDesignPattern", "St
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagement.API", "StudentManagement.API\StudentManagement.API.csproj", "{E5F9D260-5899-4C20-800C-D0566D967B63}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_LinQ", "Practice_LinQ\Practice_LinQ.csproj", "{B2ADD6F2-9E63-4E2A-89A5-B5EB15270F4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{E5F9D260-5899-4C20-800C-D0566D967B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5F9D260-5899-4C20-800C-D0566D967B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5F9D260-5899-4C20-800C-D0566D967B63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2ADD6F2-9E63-4E2A-89A5-B5EB15270F4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2ADD6F2-9E63-4E2A-89A5-B5EB15270F4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2ADD6F2-9E63-4E2A-89A5-B5EB15270F4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2ADD6F2-9E63-4E2A-89A5-B5EB15270F4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
